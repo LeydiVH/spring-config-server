@@ -8,3 +8,18 @@ eureka:
       default-zone: http://localhost:8761/eureka
     instance:
       hostname: localhost
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    database: baj1jtreebpycu3srng7
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://u5vye6tubkfvjpgpq908:NO8nNMAdofLNdBIG68gxTUQRP2dEaR@baj1jtreebpycu3srng7-postgresql.services.clever-cloud.com:5432/baj1jtreebpycu3srng7
+    username: u5vye6tubkfvjpgpq908
+    password: NO8nNMAdofLNdBIG68gxTUQRP2dEaR
