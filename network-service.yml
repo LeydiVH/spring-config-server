@@ -8,3 +8,7 @@ eureka:
       default-zone: http://localhost:8761/eureka
     instance:
       hostname: localhost
+spring:
+  data:
+    mongodb:
+      uri: mongodb://uotdaxohtrtlhshruka9:pd9nRBbYCFpa6K3OFwGu@n1-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017,n2-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017/bpeuywlst4elju9?replicaSet=rs0
